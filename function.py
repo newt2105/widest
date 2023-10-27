@@ -1,18 +1,5 @@
 import networkx as nx
 
-net = nx.DiGraph()
-net.add_node(1, weight=3)
-net.add_node(2, weight=8)
-net.add_node(3, weight=15)
-net.add_node(4, weight=5)
-net.add_node(5, weight=5)
-net.add_edge(1, 2, weight=7)
-net.add_edge(2, 3, weight=8)
-net.add_edge(3,4, weight=6)
-net.add_edge(4,2, weight=7)
-net.add_edge(5,4, weight=4)
-net.add_edge(2,5, weight=2)
-
 # Function to print required path
 def printpath(parent, vertex, target, path):
     # global parent
