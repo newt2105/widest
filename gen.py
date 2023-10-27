@@ -21,7 +21,7 @@ def PhyGraphGen(
 
     for i in range(__phy_nodes_count):
         node_capacity = random.randint(PhyNodeMinCapacity, PhyNodeMaxCapacity)
-        PHYGraph.add_node(i+1, weight=node_capacity)
+        PHYGraph.add_node(i, weight=node_capacity)
     for i in PHYGraph.nodes:
         for j in PHYGraph.nodes:
             if (i==j):
