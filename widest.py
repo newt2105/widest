@@ -14,4 +14,4 @@ A = create_random_physical_network()
 # edge_labels = {(u,v): d['weight'] for u,v,d in net.edges(data= True)}
 # nx.draw_networkx_edge_labels(net, pos, edge_labels = edge_labels)
 # plt.show()
-print(widest_path_problem(A, 0, 3))
+# print(widest_path_problem(A, 0, 3))
